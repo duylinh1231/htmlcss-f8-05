@@ -223,3 +223,270 @@ a {
     line-height: 1.71;
     cursor: default;
 }
+
+/* Hero Phone */
+.hero__media {
+    position: relative;
+    max-width: 54%;
+}
+
+.hero__download {
+    position: absolute;
+    top: 113px;
+    left: -100px;
+    display: flex;
+    align-items: center;
+    padding: 14px 10px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.hero__icon-1 {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+.hero__download-title {
+    margin: 0 19px 0 8px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #31456a;
+}
+
+.hero__download-price {
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #4ab5e3;
+}
+
+.hero__percent {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 154px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #da6464;
+}
+
+.hero__percent-number {
+    font-size: 4.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero__percent-desc {
+    margin-left: 2px;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.hero__funds {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 246px;
+    bottom: 61px;
+    padding: 20px 14px;
+    border-radius: 10px;
+    background: #439f90;
+}
+
+.hero__funds span {
+    margin-left: 11px;
+}
+
+.hero__funds-price {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero__funds-desc {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+.hero-phone {
+    position: relative;
+    margin-right: 170px;
+    width: 296px;
+    height: 562px;
+    border-radius: 40px;
+    border: 12px solid #212832;
+    background: #fff;
+}
+
+.hero-phone::before {
+    position: absolute;
+    content: "";
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: -12px;
+    text-align: center;
+    width: 144px;
+    height: 36px;
+    border-radius: 0px 0px 18px 18px;
+    background: #3c2f60;
+}
+
+.hero-phone__inner {
+    padding: 40px 11px;
+}
+
+.hero-phone__card {
+    position: relative;
+    padding: 16px;
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    background: linear-gradient(56deg, #8679e4 0%, #7264d6 100%);
+    overflow: hidden;
+    z-index: 0;
+}
+
+.hero-phone__icon-1 {
+    position: absolute;
+    left: 0;
+    top: -29px;
+    width: 105px;
+    height: 93px;
+    object-fit: contain;
+}
+
+.hero-phone__icon-2 {
+    position: absolute;
+    top: 60px;
+    right: -22px;
+    width: 180px;
+    height: 105px;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.hero-phone__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-phone__balance {
+    font-size: 1.4rem;
+    line-height: normal;
+    color: #fff;
+    z-index: 2;
+}
+
+.hero-phone__money {
+    margin-top: 2px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+}
+
+.hero-phone__info {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 69px);
+}
+
+.hero-phone__holder,
+.hero-phone__valid {
+    font-size: 1rem;
+    line-height: normal;
+    color: #fff;
+    z-index: 2;
+}
+
+.hero-phone__name,
+.hero-phone__date {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    z-index: 2;
+}
+
+.hero-phone__name {
+    white-space: nowrap;
+}
+
+/* Hero Phone Body */
+
+.hero-phone__top {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-phone__label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: normal;
+    color: #31456a;
+}
+
+.hero-phone__list {
+    margin-top: 28px;
+}
+
+.hero-phone__item {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-phone__item-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 14px;
+}
+
+.hero-phone__item-info {
+    display: grid;
+    grid-template-columns: repeat(2, 110px);
+}
+
+.hero-phone__profit,
+.hero-phone__item-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #212832;
+}
+
+.hero-phone__profit {
+    margin-left: 34px;
+}
+
+.hero-phone__item-date,
+.hero-phone__desc {
+    margin-top: 6px;
+    font-size: 1rem;
+    line-height: 1;
+    color: #696d76;
+}
+
+.hero-phone__item-date {
+    margin-left: 54px;
+}
+
+.hero-phone__list .hero-phone__item:nth-child(2) .hero-phone__profit,
+.hero-phone__list .hero-phone__item:nth-child(4) .hero-phone__profit {
+    margin-left: 45px;
+}
