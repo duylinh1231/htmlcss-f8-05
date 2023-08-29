@@ -738,3 +738,51 @@ a {
     font-size: 1.8rem;
     font-weight: 600;
 }
+
+.about__wrap-02 {
+    margin-top: 168px;
+}
+
+.about__img-02 {
+    position: absolute;
+    bottom: 2px;
+    left: 29px;
+    width: 413px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.about__payment {
+    position: absolute;
+    bottom: 57px;
+    left: 263px;
+    padding: 28px;
+    border-radius: 10px;
+    background: #fff;
+    filter: drop-shadow(0px 44px 48px rgba(0, 0, 0, 0.1));
+}
+
+.about__payment-title {
+    width: 224px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+    color: #212832;
+}
+
+.about__payment-wrap {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 18px;
+}
+
+.about__icon-04 {
+    position: absolute;
+    bottom: 165px;
+    right: -90px;
+}
+
+.about__content:nth-child(6) .about__heading {
+    margin-bottom: 20px;
+}
