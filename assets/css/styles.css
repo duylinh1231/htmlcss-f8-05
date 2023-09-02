@@ -962,3 +962,73 @@ a {
 .blog-item:hover .blog__action {
     color: #7264d6;
 }
+
+/* App */
+
+.app {
+    margin-top: 160px;
+}
+
+.app__content {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 24px;
+    background: #7264d6;
+}
+
+.app__desc,
+.app__heading,
+.app__label {
+    color: #fff;
+}
+
+.app__label::before {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    content: "";
+    width: 18px;
+    height: 2px;
+    background: #fff;
+}
+
+.app__action {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.app__download {
+    width: 182px;
+    height: 64px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.app__decor {
+    position: absolute;
+    width: 154px;
+    height: 154px;
+}
+
+.app__decor-01 {
+    top: 49px;
+    left: 112px;
+}
+
+.app__decor-02 {
+    top: 49px;
+    right: 112px;
+}
+
+.app__decor-03 {
+    left: 166px;
+    bottom: 49px;
+}
+
+.app__decor-04 {
+    right: 166px;
+    bottom: 49px;
+}
