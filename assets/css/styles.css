@@ -40,6 +40,12 @@ a {
     border: 1px solid transparent;
 }
 
+.btn:hover {
+    color: #212832;
+    background: #fff;
+    border-color: #212832;
+}
+
 .section__heading {
     margin-top: 12px;
     font-size: 4rem;
@@ -108,12 +114,6 @@ a {
 
 .header-action__btn {
     padding: 12px 28px;
-}
-
-.header-action__btn:hover {
-    color: #212832;
-    background: #fff;
-    border-color: #212832;
 }
 
 /* Hero */
@@ -659,12 +659,6 @@ a {
     padding: 15px 30px;
 }
 
-.about__btn:hover {
-    color: #212832;
-    background: #fff;
-    border: 1px solid #212832;
-}
-
 .about__card {
     width: 482px;
     height: 322px;
@@ -892,4 +886,79 @@ a {
 .client__dot--active {
     background: #7264d6;
     border-color: #7264d6;
+}
+
+/* Blog */
+
+.blog {
+    margin-top: 160px;
+}
+
+.blog__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog__btn {
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.blog__body {
+    margin-top: 70px;
+}
+
+.blog__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #dfe2e8;
+}
+
+.blog-item:hover {
+    border-color: transparent;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.07);
+}
+
+.blog__thump {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 22px;
+}
+
+.blog__date {
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #696d76;
+}
+
+.blog__heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+    color: #212832;
+}
+
+.blog__action {
+    padding: 10px;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #696d76;
+}
+
+.blog-item:hover .blog__action {
+    color: #7264d6;
 }
